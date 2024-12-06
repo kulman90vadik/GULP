@@ -1,0 +1,93 @@
+// .visually-hidden {
+//     position: absolute !important;
+//     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+//     clip: rect(1px, 1px, 1px, 1px);
+//     padding:0 !important;
+//     border:0 !important;
+//     height: 1px !important; 
+//     width: 1px !important; 
+//     overflow: hidden;
+// }
+
+html,
+body {
+    height: 100%;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+body {
+//     font-family: $Montserrat;
+//     font-weight: $fw400;
+//     background-color: #000;
+//     font-size: 16px;
+//     line-height: 1.5;
+//     color: #fff;
+    display: flex;
+    flex-direction: column;
+//     @include max($lg) {
+//         line-height: 1.5;
+//         font-size: 16px;
+//     }
+}
+
+// .container {
+//     max-width: 1200px;
+//     padding: 0 15px;
+//     margin: 0 auto;
+//     @include max($sm) {
+//         padding: 0 5px;
+//     }
+//     &--fluid {
+//         @include max($sm) {
+//             padding: 0 10px;
+//         }
+//     }
+// }
+
+// .title {
+//     position: relative;
+//     text-align: center;
+//     margin-left: -41px; 
+//     margin-right: -41px;
+//     padding: 15px 30px;
+//     background-color: #1d283c;
+//     font-size: 32px;
+//     font-family: $Ubuntu;
+//     font-weight: $fw700;
+//     color: #fff;
+//     letter-spacing: 5px;
+//     &::after {
+//         position: absolute;
+//         left: 0;
+//         bottom: -10px;
+//         content:'';
+//         border-top: 10px solid #090f1b;
+//         border-left: 10px solid transparent;
+//     }
+//     &::before {
+//         position: absolute;
+//         right: 0;
+//         bottom: -10px;
+//         content:'';
+//         border-top: 10px solid #090f1b;
+//         border-right: 10px solid transparent;
+//     }
+//     @include max($lg) {
+//         padding: 10px 30px;
+//         margin-left: -31px; 
+//         margin-right: -31px;
+//     }
+//     @include max($sm) {
+//         margin-left: -16px; 
+//         margin-right: -16px;
+//         font-size: 23px;
+//         padding: 5px 30px;
+//     }
+// }
+
+
+// @include lineClamp;
+// -webkit-line-clamp: 2;

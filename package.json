@@ -1,0 +1,31 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "del": "^8.0.0",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-sass": "^6.0.0",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.82.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-replace": "^1.1.4"
+  }
+}
